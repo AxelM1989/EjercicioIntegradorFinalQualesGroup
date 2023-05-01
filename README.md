@@ -7,6 +7,13 @@
 Como parte de la capacitación que realicé, de manera gratuita, en la reconocida y gran empresa Quales Group, para la entrega de la certificación, se debía realizar un ejercicio integrador final para la aprobación del mismo. Este trabajo fué muy motivante y un lindo desafío para mi labor profesional en el mundo de los datos.
 
 ## ¿QUE ES ETL?
+Extracción, Transformación y Carga, ETL, por sus siglas en inglés Extract, Transform and Load, es el proceso consistente en combinar datos de diferentes orígenes un gran repositorio central llamado almacenamiento de datos. ETL utiliza un conjunto de reglas comerciales para limpiar y organizar datos en bruto y prepararlos para el almacenamiento, el análisis de datos y el machine learning (ML). Puede abordar necesidades de inteligencia empresarial específicas mediante análisis de datos (como la predicción del resultado de decisiones empresariales, la generación de informes y paneles, la reducción de la ineficacia operativa y más).
+
+La extracción, transformación y carga (ETL) funciona moviendo datos del sistema de origen al sistema de destino a intervalos periódicos, automatizando el procedimiento. El proceso ETL funciona en tres pasos:
+
+1- Extracción de los datos relevantes de la base de datos de origen.
+2- Transformación de los datos para que sean más adecuados para el análisis.
+3- Carga de los datos en la base de datos de destino.
 
 ## OBJETIVOS
 El objetivo del trabajo será el de realizar una implementación de una Solución de Datos.
@@ -56,8 +63,10 @@ NOMBRE_APELLIDO_DW_COMERCIAL_VALIDACIONES.docx y el script con las validaciones 
 
 4. Documento con Supuestos (Word que explique los supuestos que tomaron en cuenta a la hora de cargar el DW y/o el desarrollo del tablero) en caso de que aplique. El word/ doc debera tener el siguiente nombre: NOMBRE_APELLIDO_DW_COMERCIAL_SUPUESTOS.docx
 
-*Nota: Como la carga inicial del excel al DW fue realizada mediante la herramienta de task de SQL SERVER y para que quien quisiera pueda correr absolutamente todo el proyecto desde los archivos .sql, realicé un archivo llamado AXEL_MORIENA_DW_COMERCIAL_INSERTS_INICIALES, donde a través de la función concatenar de Excel pude realizar un scripts usando "INSERT INTO" para poder cargar manualmente cada tabla.
+**Nota: Como la carga inicial del excel al DW fue realizada mediante la herramienta de task de SQL SERVER y para que quien quisiera pueda correr absolutamente todo el proyecto desde los archivos .sql, realicé un archivo llamado AXEL_MORIENA_DW_COMERCIAL_INSERTS_INICIALES, donde a través de la función concatenar de Excel pude realizar un scripts usando "INSERT INTO" para poder cargar manualmente cada tabla.**
+
 Cabe destacar, que de esta manera hay un límite de 1.000 registros y como la tabla de ventas tiene 11.992 registros, se debió realizar 12 veces el script, pero ejecutando todo este archivo mencionado, se deberían cargar todas las tablas sin ningún problema.
+
 Para ello, se recomienda primero ejecutar el archivo AXEL_MORIENA_DW_COMERCIAL_CREATE_TABLES, luego AXEL_MORIENA_DW_COMERCIAL_INSERTS_INICIALES, para tener toda la carga de las tablas staging listas del DW.
 
 ## ESPECIFICACIONES FINALES
