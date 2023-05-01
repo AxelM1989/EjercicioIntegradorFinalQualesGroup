@@ -1,11 +1,14 @@
 # Ejercicio Integrador Final - Capacitación Data Process - Quales Group
 
 
+
 ## Capacitación data process de Quales Group 
 
 ![image](https://user-images.githubusercontent.com/103937102/235311000-95134c7f-36af-4a1e-87d4-1bea05819799.png)
 
 Como parte de la capacitación que realicé, de manera gratuita, en la reconocida y gran empresa Quales Group, para la entrega de la certificación, se debía realizar un ejercicio integrador final para la aprobación del mismo. Este trabajo fué muy motivante y un lindo desafío para mi labor profesional en el mundo de los datos.
+
+
 
 ## ¿QUE ES ETL? ![image](https://user-images.githubusercontent.com/103937102/235486856-be162000-79d3-4a22-91a8-397db0ad47c8.png)
 
@@ -19,11 +22,15 @@ La extracción, transformación y carga (ETL) funciona moviendo datos del sistem
 
 3- Carga de los datos en la base de datos de destino.
 
+
+
 ## OBJETIVOS 
+
 ![image](https://user-images.githubusercontent.com/103937102/235486988-3feefd19-210e-4946-a1c8-39dfc6992bbc.png)
 
 El objetivo del trabajo será el de realizar una implementación de una Solución de Datos.
 Desde la detección y recolección de datos, relevamiento de requerimientos y construcción del Datawarehouse (DW), desarrollo de ETLs (Stored Procedure)y validaciones de datos.
+
 
 
 ## ORIGENES DE DATOS
@@ -39,6 +46,7 @@ Contiene las siguientes tablas:
 *Ventas
 
 
+
 ## REGLAS DE NEGOCIO
 
 Se identificaron las siguientes reglas de negocio:
@@ -52,6 +60,8 @@ Ventas:
 Deberán crear el modelo de datos que justifique estas reglas de negocio.
 
 Para comprender mejor lo solicitado por la empresa, se recomienda leer la totalidad del PDF Data Process 1- Ejercicio Integrador - Definiciones y especificaciones
+
+
 
 ## ENTREGABLES
 
@@ -80,6 +90,8 @@ Cabe destacar, que de esta manera hay un límite de 1.000 registros y como la ta
 
 Para ello, se recomienda primero ejecutar el archivo AXEL_MORIENA_DW_COMERCIAL_CREATE_TABLES, luego AXEL_MORIENA_DW_COMERCIAL_INSERTS_INICIALES, para tener toda la carga de las tablas staging listas del DW.
 
+
+
 ## ESPECIFICACIONES FINALES
 
 Los archivos incluidos en este repositorio y lo que contiene cada uno, son:
@@ -92,6 +104,7 @@ Los archivos incluidos en este repositorio y lo que contiene cada uno, son:
 * Un script con todas las validaciones realizadas llamado AXEL_MORIENA_DW_COMERCIAL_SCRIPT_VALIDACIONES.
 * Dos archivos WORD, como solicitaban las consignas. Uno de supuestos y otro de validaciones.
 * Por último, el modelo de negocio, en formato imagen, creado con draw.io AXEL_MORIENA_DW_COMERCIAL_MODELO.drawio.
+
 
 ## STACK TECNOLOGICO
 
