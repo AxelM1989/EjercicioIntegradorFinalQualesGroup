@@ -12,7 +12,7 @@ Como parte de la capacitación que realicé, de manera gratuita, en la reconocid
 
 ## ¿QUE ES ETL? ![image](https://user-images.githubusercontent.com/103937102/235486856-be162000-79d3-4a22-91a8-397db0ad47c8.png)
 
-Extracción, Transformación y Carga, ETL, por sus siglas en inglés Extract, Transform and Load, es el proceso consistente en combinar datos de diferentes orígenes un gran repositorio central llamado almacenamiento de datos. ETL utiliza un conjunto de reglas comerciales para limpiar y organizar datos en bruto y prepararlos para el almacenamiento, el análisis de datos y el machine learning (ML). Puede abordar necesidades de inteligencia empresarial específicas mediante análisis de datos (como la predicción del resultado de decisiones empresariales, la generación de informes y paneles, la reducción de la ineficacia operativa y más).
+Extracción, Transformación y Carga (ETL), por sus siglas en inglés Extract, Transform and Load, es el proceso consistente en combinar datos de diferentes orígenes un gran repositorio central llamado almacenamiento de datos. ETL utiliza un conjunto de reglas comerciales para limpiar y organizar datos en bruto y prepararlos para el almacenamiento, el análisis de datos y el machine learning (ML). Puede abordar necesidades de inteligencia empresarial específicas mediante análisis de datos (como la predicción del resultado de decisiones empresariales, la generación de informes y paneles, la reducción de la ineficacia operativa y más).
 
 La extracción, transformación y carga (ETL) funciona moviendo datos del sistema de origen al sistema de destino a intervalos periódicos, automatizando el procedimiento. El proceso ETL funciona en tres pasos:
 
