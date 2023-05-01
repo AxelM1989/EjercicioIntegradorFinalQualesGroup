@@ -114,6 +114,9 @@ https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/SUPUE
 * Por último, el modelo de negocio, en formato imagen, creado con draw.io https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/MODELO.drawio.png.
 
 ##
+## TRABAJOS EXTRAS (cambiar nombre) Dashboard.
+
+##
 
 ## STACK TECNOLOGICO
 
@@ -127,6 +130,5 @@ https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/SUPUE
 
 ![image](https://user-images.githubusercontent.com/103937102/235487387-2d716c3a-5c3a-4531-8340-15afb6a8cf86.png)
 
-##
-## TRABAJOS EXTRAS
+
 
