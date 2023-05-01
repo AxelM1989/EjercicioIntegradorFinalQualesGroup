@@ -1,6 +1,6 @@
 # Ejercicio Integrador Final - Capacitación Data Process - Quales Group
 
-
+#
 
 ## Capacitación data process de Quales Group 
 
@@ -8,7 +8,7 @@
 
 Como parte de la capacitación que realicé, de manera gratuita, en la reconocida y gran empresa Quales Group, para la entrega de la certificación, se debía realizar un ejercicio integrador final para la aprobación del mismo. Este trabajo fué muy motivante y un lindo desafío para mi labor profesional en el mundo de los datos.
 
-
+##
 
 ## ¿QUE ES ETL? ![image](https://user-images.githubusercontent.com/103937102/235486856-be162000-79d3-4a22-91a8-397db0ad47c8.png)
 
@@ -22,7 +22,7 @@ La extracción, transformación y carga (ETL) funciona moviendo datos del sistem
 
 3- Carga de los datos en la base de datos de destino.
 
-
+##
 
 ## OBJETIVOS 
 
@@ -38,11 +38,17 @@ Desde la detección y recolección de datos, relevamiento de requerimientos y co
 La fuente de información es un único conjunto de datos, que simula ser una base de datos con distintas tablas donde se encuentra la información de un sistema de gestión de ventas.
 Contiene las siguientes tablas:
 *Productos
+
 *Categorías
+
 *Clientes
+
 *Pais
+
 *Sucursal
+
 *Vendedor
+
 *Ventas
 
 
