@@ -1,5 +1,6 @@
 # Ejercicio Integrador Final - Capacitación Data Process - Quales Group
 
+
 ## Capacitación data process de Quales Group 
 
 ![image](https://user-images.githubusercontent.com/103937102/235311000-95134c7f-36af-4a1e-87d4-1bea05819799.png)
@@ -18,12 +19,15 @@ La extracción, transformación y carga (ETL) funciona moviendo datos del sistem
 
 3- Carga de los datos en la base de datos de destino.
 
-## OBJETIVOS ![image](https://user-images.githubusercontent.com/103937102/235486988-3feefd19-210e-4946-a1c8-39dfc6992bbc.png)
+## OBJETIVOS 
+![image](https://user-images.githubusercontent.com/103937102/235486988-3feefd19-210e-4946-a1c8-39dfc6992bbc.png)
 
 El objetivo del trabajo será el de realizar una implementación de una Solución de Datos.
 Desde la detección y recolección de datos, relevamiento de requerimientos y construcción del Datawarehouse (DW), desarrollo de ETLs (Stored Procedure)y validaciones de datos.
 
+
 ## ORIGENES DE DATOS
+
 La fuente de información es un único conjunto de datos, que simula ser una base de datos con distintas tablas donde se encuentra la información de un sistema de gestión de ventas.
 Contiene las siguientes tablas:
 *Productos
@@ -34,7 +38,9 @@ Contiene las siguientes tablas:
 *Vendedor
 *Ventas
 
+
 ## REGLAS DE NEGOCIO
+
 Se identificaron las siguientes reglas de negocio:
 Ventas:
 ➔ Un producto puede estar en más de una venta.
@@ -48,6 +54,7 @@ Deberán crear el modelo de datos que justifique estas reglas de negocio.
 Para comprender mejor lo solicitado por la empresa, se recomienda leer la totalidad del PDF Data Process 1- Ejercicio Integrador - Definiciones y especificaciones
 
 ## ENTREGABLES
+
 Para sintetizar, se debía cargar desde el excel a una base de datos llamada DW_COMERCIAL toda la información en un DataWarehouse, pasando cada tabla (dimensión y hecho) por una serie de transformaciones para llegar a lo solicitado, de esta manera cada una debía contenerse en primer lugar en tablas staging para luego a través de Stored Procedure ir pasando la información a otra Intermedia y luego a las finales, especificando las transofrmaciones requeridas en cada caso.
 De esta manera, en las tablas finales llega la información limpia, sin duplicados ni errores y cuando haya cargas incrementales para realizar el ETL, se hará de manera automática, teniendo en cuenta las mismas consideraciones de las cargas iniciales y otras para que no se vuelvan a cargar registros que ya han sido cargados anteriormente.
 
@@ -74,6 +81,7 @@ Cabe destacar, que de esta manera hay un límite de 1.000 registros y como la ta
 Para ello, se recomienda primero ejecutar el archivo AXEL_MORIENA_DW_COMERCIAL_CREATE_TABLES, luego AXEL_MORIENA_DW_COMERCIAL_INSERTS_INICIALES, para tener toda la carga de las tablas staging listas del DW.
 
 ## ESPECIFICACIONES FINALES
+
 Los archivos incluidos en este repositorio y lo que contiene cada uno, son:
 
 * Un archivo (AXEL_MORIENA_DW_COMERCIAL_CREATE_TABLES) con los scripts de todas las tablas creadas.
@@ -86,6 +94,7 @@ Los archivos incluidos en este repositorio y lo que contiene cada uno, son:
 * Por último, el modelo de negocio, en formato imagen, creado con draw.io AXEL_MORIENA_DW_COMERCIAL_MODELO.drawio.
 
 ## STACK TECNOLOGICO
+
 ![image](https://user-images.githubusercontent.com/103937102/235487225-735ddfae-23c9-44f8-8a9b-620554e5b4a6.png)
 
 ![image](https://user-images.githubusercontent.com/103937102/235487191-c16daedc-f141-42ba-9e9f-f071da0771ad.png)
