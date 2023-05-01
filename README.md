@@ -6,7 +6,8 @@
 
 Como parte de la capacitación que realicé, de manera gratuita, en la reconocida y gran empresa Quales Group, para la entrega de la certificación, se debía realizar un ejercicio integrador final para la aprobación del mismo. Este trabajo fué muy motivante y un lindo desafío para mi labor profesional en el mundo de los datos.
 
-## ¿QUE ES ETL?
+## ¿QUE ES ETL? ![image](https://user-images.githubusercontent.com/103937102/235486856-be162000-79d3-4a22-91a8-397db0ad47c8.png)
+
 Extracción, Transformación y Carga, ETL, por sus siglas en inglés Extract, Transform and Load, es el proceso consistente en combinar datos de diferentes orígenes un gran repositorio central llamado almacenamiento de datos. ETL utiliza un conjunto de reglas comerciales para limpiar y organizar datos en bruto y prepararlos para el almacenamiento, el análisis de datos y el machine learning (ML). Puede abordar necesidades de inteligencia empresarial específicas mediante análisis de datos (como la predicción del resultado de decisiones empresariales, la generación de informes y paneles, la reducción de la ineficacia operativa y más).
 
 La extracción, transformación y carga (ETL) funciona moviendo datos del sistema de origen al sistema de destino a intervalos periódicos, automatizando el procedimiento. El proceso ETL funciona en tres pasos:
@@ -17,7 +18,8 @@ La extracción, transformación y carga (ETL) funciona moviendo datos del sistem
 
 3- Carga de los datos en la base de datos de destino.
 
-## OBJETIVOS
+## OBJETIVOS ![image](https://user-images.githubusercontent.com/103937102/235486988-3feefd19-210e-4946-a1c8-39dfc6992bbc.png)
+
 El objetivo del trabajo será el de realizar una implementación de una Solución de Datos.
 Desde la detección y recolección de datos, relevamiento de requerimientos y construcción del Datawarehouse (DW), desarrollo de ETLs (Stored Procedure)y validaciones de datos.
 
@@ -82,4 +84,15 @@ Los archivos incluidos en este repositorio y lo que contiene cada uno, son:
 * Un script con todas las validaciones realizadas llamado AXEL_MORIENA_DW_COMERCIAL_SCRIPT_VALIDACIONES.
 * Dos archivos WORD, como solicitaban las consignas. Uno de supuestos y otro de validaciones.
 * Por último, el modelo de negocio, en formato imagen, creado con draw.io AXEL_MORIENA_DW_COMERCIAL_MODELO.drawio.
+
+## STACK TECNOLOGICO
+![image](https://user-images.githubusercontent.com/103937102/235487225-735ddfae-23c9-44f8-8a9b-620554e5b4a6.png)
+
+![image](https://user-images.githubusercontent.com/103937102/235487191-c16daedc-f141-42ba-9e9f-f071da0771ad.png)
+
+![image](https://user-images.githubusercontent.com/103937102/235487342-2c396a0d-b01d-409e-ba47-7b7dfa76cf55.png)
+
+![image](https://user-images.githubusercontent.com/103937102/235487284-6f29ae72-b0b6-4ef8-8b63-9479bb262486.png)
+
+![image](https://user-images.githubusercontent.com/103937102/235487387-2d716c3a-5c3a-4531-8340-15afb6a8cf86.png)
 
