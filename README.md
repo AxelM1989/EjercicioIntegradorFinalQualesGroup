@@ -31,7 +31,7 @@ La extracción, transformación y carga (ETL) funciona moviendo datos del sistem
 El objetivo del trabajo será el de realizar una implementación de una Solución de Datos.
 Desde la detección y recolección de datos, relevamiento de requerimientos y construcción del Datawarehouse (DW), desarrollo de ETLs (Stored Procedure)y validaciones de datos.
 
-
+##
 
 ## ORIGENES DE DATOS
 
@@ -51,7 +51,7 @@ Contiene las siguientes tablas:
 
 *Ventas
 
-
+##
 
 ## REGLAS DE NEGOCIO
 
@@ -68,7 +68,7 @@ Deberán crear el modelo de datos que justifique estas reglas de negocio.
 Para comprender mejor lo solicitado por la empresa, se recomienda leer la totalidad del PDF Data Process 1- Ejercicio Integrador - Definiciones y especificaciones
 
 
-
+##
 ## ENTREGABLES
 
 Para sintetizar, se debía cargar desde el excel a una base de datos llamada DW_COMERCIAL toda la información en un DataWarehouse, pasando cada tabla (dimensión y hecho) por una serie de transformaciones para llegar a lo solicitado, de esta manera cada una debía contenerse en primer lugar en tablas staging para luego a través de Stored Procedure ir pasando la información a otra Intermedia y luego a las finales, especificando las transofrmaciones requeridas en cada caso.
@@ -96,7 +96,7 @@ Cabe destacar, que de esta manera hay un límite de 1.000 registros y como la ta
 
 Para ello, se recomienda primero ejecutar el archivo AXEL_MORIENA_DW_COMERCIAL_CREATE_TABLES, luego AXEL_MORIENA_DW_COMERCIAL_INSERTS_INICIALES, para tener toda la carga de las tablas staging listas del DW.
 
-
+##
 
 ## ESPECIFICACIONES FINALES
 
@@ -111,6 +111,7 @@ Los archivos incluidos en este repositorio y lo que contiene cada uno, son:
 * Dos archivos WORD, como solicitaban las consignas. Uno de supuestos y otro de validaciones.
 * Por último, el modelo de negocio, en formato imagen, creado con draw.io AXEL_MORIENA_DW_COMERCIAL_MODELO.drawio.
 
+##
 
 ## STACK TECNOLOGICO
 
