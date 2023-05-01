@@ -12,7 +12,9 @@ Extracción, Transformación y Carga, ETL, por sus siglas en inglés Extract, Tr
 La extracción, transformación y carga (ETL) funciona moviendo datos del sistema de origen al sistema de destino a intervalos periódicos, automatizando el procedimiento. El proceso ETL funciona en tres pasos:
 
 1- Extracción de los datos relevantes de la base de datos de origen.
+
 2- Transformación de los datos para que sean más adecuados para el análisis.
+
 3- Carga de los datos en la base de datos de destino.
 
 ## OBJETIVOS
