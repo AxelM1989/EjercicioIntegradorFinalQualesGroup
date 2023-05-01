@@ -6,7 +6,8 @@
 
 ![image](https://user-images.githubusercontent.com/103937102/235311000-95134c7f-36af-4a1e-87d4-1bea05819799.png)
 
-Como parte de la capacitación que realicé, de manera gratuita, en la reconocida y gran empresa Quales Group, para la entrega de la certificación, se debía realizar un ejercicio integrador final para la aprobación del mismo. Este trabajo fué muy motivante y un lindo desafío para mi labor profesional en el mundo de los datos.
+Como parte de la capacitación que realicé, de manera gratuita, en la reconocida y excelente empresa Quales Group, para la entrega de la certificación, se debía realizar un ejercicio integrador final para la aprobación del mismo. Este trabajo fué muy motivante y un lindo desafío para mi labor profesional en el mundo de los datos.
+Comencemos por conocer un concepto importante.
 
 ##
 
@@ -65,7 +66,7 @@ Ventas:
 ➔ El nivel de detalle de ventas es diario.
 Deberán crear el modelo de datos que justifique estas reglas de negocio.
 
-Para comprender mejor lo solicitado por la empresa, se recomienda leer la totalidad del PDF Data Process 1- Ejercicio Integrador - Definiciones y especificaciones
+Para comprender mejor lo solicitado por la empresa, se recomienda leer la totalidad del PDF siguiente https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/Data%20Process%20I%20-%20Ejercicio%20Integrador%20-%20Definiciones%20y%20especificaciones.docx.pdf
 
 
 ##
@@ -90,11 +91,11 @@ NOMBRE_APELLIDO_DW_COMERCIAL_VALIDACIONES.docx y el script con las validaciones 
 
 4. Documento con Supuestos (Word que explique los supuestos que tomaron en cuenta a la hora de cargar el DW y/o el desarrollo del tablero) en caso de que aplique. El word/ doc debera tener el siguiente nombre: NOMBRE_APELLIDO_DW_COMERCIAL_SUPUESTOS.docx
 
-**Nota: Como la carga inicial del excel al DW fue realizada mediante la herramienta de task de SQL SERVER y para que quien quisiera pueda correr absolutamente todo el proyecto desde los archivos .sql, realicé un archivo llamado AXEL_MORIENA_DW_COMERCIAL_INSERTS_INICIALES, donde a través de la función concatenar de Excel pude realizar un scripts usando "INSERT INTO" para poder cargar manualmente cada tabla.**
+**Nota: Como la carga inicial del excel al DW fue realizada mediante la herramienta de task de SQL SERVER y para que quien quisiera pueda correr absolutamente todo el proyecto desde los archivos .sql, realicé un archivo llamado INSERTS_INICIALES (https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/INSERTS_INICIALES.sql) , donde a través de la función concatenar de Excel pude realizar un scripts usando "INSERT INTO" para poder cargar manualmente cada tabla.**
 
 Cabe destacar, que de esta manera hay un límite de 1.000 registros y como la tabla de ventas tiene 11.992 registros, se debió realizar 12 veces el script, pero ejecutando todo este archivo mencionado, se deberían cargar todas las tablas sin ningún problema.
 
-Para ello, se recomienda primero ejecutar el archivo AXEL_MORIENA_DW_COMERCIAL_CREATE_TABLES, luego AXEL_MORIENA_DW_COMERCIAL_INSERTS_INICIALES, para tener toda la carga de las tablas staging listas del DW.
+Para ello, se recomienda primero ejecutar el archivo CREATE_TABLES (https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/CREATE_TABLES.sql), luego https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/INSERTS_INICIALES.sql, para tener toda la carga de las tablas staging listas del DW.
 
 ##
 
@@ -102,14 +103,15 @@ Para ello, se recomienda primero ejecutar el archivo AXEL_MORIENA_DW_COMERCIAL_C
 
 Los archivos incluidos en este repositorio y lo que contiene cada uno, son:
 
-* Un archivo (AXEL_MORIENA_DW_COMERCIAL_CREATE_TABLES) con los scripts de todas las tablas creadas.
-* Archivo AXEL_MORIENA_DW_COMERCIAL_INSERTS_INICIALES con los cripts para las cargas iniciales a las tablas staging (todas realizadas manualmente con la sentencia INSERT INTO) para que no se dificulte la carga ni se deba realizarla a través de los tasks.
-* Archivo (AXEL_MORIENA_DW_COMERCIAL_INSERTS) que lo realicé como para que pueda tener información (xq se solicitó), ya que los sp los consideraba. Pero puse todos los execute de los procedimientos de cada tabla y entendí que la consigna era insertar en estos, los datos a las tablas dimensión y fact. Por lo tanto, comprendí que era eso lo esperado. De esta manera los datos a las tablas finales fueron llevados a través de los Insert y los sp son para crear nuevos o actualizarlos.
-* Archivo AXEL_MORIENA_DW_COMERCIAL_STORED PROCEDURES que contiene cada uno de los sp (para carga y actualización de tablas).
-* Otro AXEL_MORIENA_DW_COMERCIAL_ALTER_TABLES que yo no había utilizado, pero al igual que con los inserts, para cumplir con la consigna, lo que hice fue crear la tabla Fact Ventas sin las FOREIGN KEY (FK) y agregar las relaciones en un Alter para cada una de las tablas de dimensión.
-* Un script con todas las validaciones realizadas llamado AXEL_MORIENA_DW_COMERCIAL_SCRIPT_VALIDACIONES.
-* Dos archivos WORD, como solicitaban las consignas. Uno de supuestos y otro de validaciones.
-* Por último, el modelo de negocio, en formato imagen, creado con draw.io AXEL_MORIENA_DW_COMERCIAL_MODELO.drawio.
+* Un archivo (https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/CREATE_TABLES.sql) con los scripts de todas las tablas creadas.
+* Archivo https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/INSERTS_INICIALES.sql con los scripts para las cargas iniciales a las tablas staging (todas realizadas manualmente con la sentencia INSERT INTO) para que no se dificulte la carga ni se deba realizarla a través de los tasks.
+* Archivo (https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/INSERTS.sql) que lo realicé como para que pueda tener información (xq se solicitó), ya que los sp los consideraba. Pero puse todos los execute de los procedimientos de cada tabla y entendí que la consigna era insertar en estos, los datos a las tablas dimensión y fact. Por lo tanto, comprendí que era eso lo esperado. De esta manera los datos a las tablas finales fueron llevados a través de los Insert y los sp son para crear nuevos o actualizarlos.
+* Archivo https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/STORED_PROCEDURES.sql que contiene cada uno de los sp (para carga y actualización de tablas).
+* Otro https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/ALTER_TABLES.sql que yo no había utilizado, pero al igual que con los inserts, para cumplir con la consigna, lo que hice fue crear la tabla Fact Ventas sin las FOREIGN KEY (FK) y agregar las relaciones en un Alter para cada una de las tablas de dimensión.
+* Un script con todas las validaciones realizadas llamado https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/SCRIPT_VALIDACIONES.sql.
+* Dos archivos WORD, como solicitaban las consignas. Uno de supuestos y otro de validaciones, donde se aclara ciertos caminos tomados o interpretaciones realizadas sobre el proyecto y su ejecución.
+https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/SUPUESTOS.docx y https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/VALIDACIONES.docx
+* Por último, el modelo de negocio, en formato imagen, creado con draw.io https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/MODELO.drawio.png.
 
 ##
 
@@ -124,4 +126,7 @@ Los archivos incluidos en este repositorio y lo que contiene cada uno, son:
 ![image](https://user-images.githubusercontent.com/103937102/235487284-6f29ae72-b0b6-4ef8-8b63-9479bb262486.png)
 
 ![image](https://user-images.githubusercontent.com/103937102/235487387-2d716c3a-5c3a-4531-8340-15afb6a8cf86.png)
+
+##
+## TRABAJOS EXTRAS
 
