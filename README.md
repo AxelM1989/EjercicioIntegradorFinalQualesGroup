@@ -38,6 +38,7 @@ Desde la detección y recolección de datos, relevamiento de requerimientos y co
 
 La fuente de información es un único conjunto de datos, que simula ser una base de datos con distintas tablas donde se encuentra la información de un sistema de gestión de ventas.
 Contiene las siguientes tablas:
+
 *Productos
 
 *Categorías
@@ -57,13 +58,21 @@ Contiene las siguientes tablas:
 ## REGLAS DE NEGOCIO
 
 Se identificaron las siguientes reglas de negocio:
+
 Ventas:
+
 ➔ Un producto puede estar en más de una venta.
+
 ➔ En una venta un producto puede tener más de una cantidad vendida.
+
 ➔ Una Sucursal puede contener más de una venta.
+
 ➔ Un Producto corresponde a una Categoría.
+
 ➔ Un vendedor puede estar en más de una venta.
+
 ➔ El nivel de detalle de ventas es diario.
+
 Deberán crear el modelo de datos que justifique estas reglas de negocio.
 
 Para comprender mejor lo solicitado por la empresa, se recomienda leer la totalidad del PDF siguiente https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/Data%20Process%20I%20-%20Ejercicio%20Integrador%20-%20Definiciones%20y%20especificaciones.docx.pdf
