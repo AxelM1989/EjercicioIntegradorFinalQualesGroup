@@ -123,7 +123,15 @@ https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/SUPUE
 * Por último, el modelo de negocio, en formato imagen, creado con draw.io https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/MODELO.drawio.png.
 
 ##
-## TRABAJOS EXTRAS (cambiar nombre) Dashboard.
+## TAREAS COMPLEMENTARIAS.
+
+Si bien el trabajo era hasta aquí, realicé tareas extras de visualización. 
+En primer lugar, un dashboard bastante simple y sencillo, con las métricas solicitadas por el trabajo final y los filtros por cada una de las tablas para poder mostrar la información de manera más visual y concreta.
+Dejaré a continuación una imagen de muestra del tablero sin filtros y luego con filtro. A su vez podrán ver el archivo original en formato pbi en este mismo repositorio --- > 
+
+
+Por último, a través de la librería de Power Bi Client en python, logré visualizar el reporte en un archivo notebook y es una biblioteca que no conocía y que puede ser útil para trabajar desde python. Se pueden visualizar reportes publicados de Power Bi o incluso generar nuevos directamente desde aquí.
+A continuación, un ejemplo del mismo dashboard con y sin filtro para observar como se visualizan. También se puede acceder al archivo notebook (.ipynb) desde aquí ---> 
 
 ##
 
