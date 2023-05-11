@@ -93,9 +93,13 @@ Los entregables del proyecto son:
 **2. Script con el modelo físico de datos:**
 
   a. Script de Creación de Tablas con nombre NOMBRE_APELLIDO_DW_COMERCIAL_CREATE_TABLES.sql
+  
   b. Script con el Alter de las tablas con nombre NOMBRE_APELLIDO_DW_COMERCIAL_ALTER_TABLES.sql
+  
   c. Script de Inserts Iniciales de las tablas de Dimensiones con el nombre NOMBRE_APELLIDO_DW_COMERCIAL_INSERTS.sql
-  d. Script con los Stored Procedures de las cargas de Tablas Intermedias y Dimensiones con el nombre NOMBRE_APELLIDO_DW_COMERCIAL_STORED_PROCEDURES.sql
+  
+  d. Script con los Stored Procedures de las cargas de Tablas Intermedias y Dimensiones con el nombre 
+ NOMBRE_APELLIDO_DW_COMERCIAL_STORED_PROCEDURES.sql
   
 **3. Documento con Validaciones (Word donde se describa las validaciones que realizaron. Sepuede agregar imágenes de consultas, queries, imágenes del tablero e imágenes de las validaciones sobre el excel). El word/ doc debera tener el siguiente nombre:**
 
