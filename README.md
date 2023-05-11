@@ -39,19 +39,19 @@ Desde la detección y recolección de datos, relevamiento de requerimientos y co
 La fuente de información es un único conjunto de datos, que simula ser una base de datos con distintas tablas donde se encuentra la información de un sistema de gestión de ventas.
 Contiene las siguientes tablas:
 
-*Productos
+***Productos**
 
-*Categorías
+***Categorías**
 
-*Clientes
+***Clientes**
 
-*Pais
+***Pais**
 
-*Sucursal
+***Sucursal**
 
-*Vendedor
+***Vendedor**
 
-*Ventas
+***Ventas**
 
 ##
 
@@ -86,19 +86,23 @@ De esta manera, en las tablas finales llega la información limpia, sin duplicad
 
 Los entregables del proyecto son:
 
-1. Diagrama de Modelo de Datos lógico:
+**1. Diagrama de Modelo de Datos lógico:** 
+
   a. Imagen en PDF o PPT o Link si utilizan alguna herramienta de diagramas. El entregable deberá tener el siguiente nombre: NOMBRE_APELLIDO_DW_COMERCIAL_MODELO
   
-2. Script con el modelo físico de datos:
+**2. Script con el modelo físico de datos:**
+
   a. Script de Creación de Tablas con nombre NOMBRE_APELLIDO_DW_COMERCIAL_CREATE_TABLES.sql
   b. Script con el Alter de las tablas con nombre NOMBRE_APELLIDO_DW_COMERCIAL_ALTER_TABLES.sql
   c. Script de Inserts Iniciales de las tablas de Dimensiones con el nombre NOMBRE_APELLIDO_DW_COMERCIAL_INSERTS.sql
   d. Script con los Stored Procedures de las cargas de Tablas Intermedias y Dimensiones con el nombre NOMBRE_APELLIDO_DW_COMERCIAL_STORED_PROCEDURES.sql
   
-3. Documento con Validaciones (Word donde se describa las validaciones que realizaron. Sepuede agregar imágenes de consultas, queries, imágenes del tablero e imágenes de las validaciones sobre el excel). El word/ doc debera tener el siguiente nombre:
+**3. Documento con Validaciones (Word donde se describa las validaciones que realizaron. Sepuede agregar imágenes de consultas, queries, imágenes del tablero e imágenes de las validaciones sobre el excel). El word/ doc debera tener el siguiente nombre:**
+
 NOMBRE_APELLIDO_DW_COMERCIAL_VALIDACIONES.docx y el script con las validaciones con el nombre: NOMBRE_APELLIDO_DW_COMERCIAL_SCRIPT_VALIDACIONES.sql
 
-4. Documento con Supuestos (Word que explique los supuestos que tomaron en cuenta a la hora de cargar el DW y/o el desarrollo del tablero) en caso de que aplique. El word/ doc debera tener el siguiente nombre: NOMBRE_APELLIDO_DW_COMERCIAL_SUPUESTOS.docx
+**4. Documento con Supuestos (Word que explique los supuestos que tomaron en cuenta a la hora de cargar el DW y/o el desarrollo del tablero) en caso de que aplique. El word/ doc debera tener el siguiente nombre:**
+NOMBRE_APELLIDO_DW_COMERCIAL_SUPUESTOS.docx
 
 **Nota: Como la carga inicial del excel al DW fue realizada mediante la herramienta de task de SQL SERVER y para que quien quisiera pueda correr absolutamente todo el proyecto desde los archivos .sql, realicé un archivo llamado INSERTS_INICIALES (https://github.com/AxelM1989/EjercicioIntegradorFinalQualesGroup/blob/main/INSERTS_INICIALES.sql) , donde a través de la función concatenar de Excel pude realizar un scripts usando "INSERT INTO" para poder cargar manualmente cada tabla.**
 
@@ -129,21 +133,29 @@ Si bien el trabajo era hasta aquí, realicé tareas extras de visualización.
 En primer lugar, un dashboard bastante simple y sencillo, con las métricas solicitadas por el trabajo final y los filtros por cada una de las tablas para poder mostrar la información de manera más visual y concreta.
 Dejaré a continuación una imagen de muestra del tablero sin filtros y luego con filtro. A su vez podrán ver el archivo original en formato pbi en este mismo repositorio --- > https://github.com/AxelM1989/QG_DataProcess/blob/main/DW_COMERCIAL_DASHBOARD.pbix
 
-https://github.com/AxelM1989/QG_DataProcess/blob/main/Imagenes/PowerBiSinFiltros.png
+POWER BI SIN FILTROS
 
+![image](https://github.com/AxelM1989/QG_DataProcess/assets/103937102/c4122518-0d3c-400f-b897-f0ddfac39321)
 
-https://github.com/AxelM1989/QG_DataProcess/blob/main/Imagenes/PowerBiConFiltros.png
+POWER BI CON FILTROS
+
+![image](https://github.com/AxelM1989/QG_DataProcess/assets/103937102/14af7334-8af6-42b2-8608-4fb35e80cc1e)
 
 Por último, a través de la librería de Power Bi Client en python, logré visualizar el reporte en un archivo notebook y es una biblioteca que no conocía y que puede ser útil para trabajar desde python. Se pueden visualizar reportes publicados de Power Bi o incluso generar nuevos directamente desde aquí.
 A continuación, un ejemplo del mismo dashboard con y sin filtro para observar como se visualizan. También se puede acceder al archivo notebook (.ipynb) desde aquí ---> https://github.com/AxelM1989/QG_DataProcess/blob/main/PowerBI_DW_COMERCIAL.ipynb
 
-https://github.com/AxelM1989/QG_DataProcess/blob/main/Imagenes/NotebookSinFiltros.png
+NOTEBOOK SIN FILTROS
 
-https://github.com/AxelM1989/QG_DataProcess/blob/main/Imagenes/NotebookConFiltros.png
+![image](https://github.com/AxelM1989/QG_DataProcess/assets/103937102/04f8ea0b-40b7-46a5-a018-67c826ab0129)
+
+NOTEBOOK CON FILTROS
+
+![image](https://github.com/AxelM1989/QG_DataProcess/assets/103937102/81b736fb-1fd6-4fa7-b95e-80c9237cb09a)
+
 
 Considerando que probablemente al archivo notebook no puedan visualizarlo sin permisos, mostraré una imagen del archivo de notebook completo en tamaño pequeño.
 
-https://github.com/AxelM1989/QG_DataProcess/blob/main/Imagenes/NotebookCompleto.png
+![image](https://github.com/AxelM1989/QG_DataProcess/assets/103937102/21431023-fe8e-45a2-8b00-edf5c5b6bc5f)
 
 ##
 
